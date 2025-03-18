@@ -1,0 +1,2020 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+	<meta name='generator' content='ExamView HTML Generator 1.0.5'>
+	<meta name='robots' content='noindex,nofollow'>
+	<title>CpE 265 SOFTWARE DESIGN 2s2425 MIDTERM EXAMINATION</title>
+	<style type='text/css'>
+		.spacer { line-height:.7em; }
+		.title { font-size:13pt; font-weight:bold; font-family:"Times New Roman", "Times", serif; color:#000000; }
+		.qnumber { font-size:12pt; font-family:"Times New Roman", "Times", serif; color:#000000; text-align:right; }
+		.choice { font-size:12pt; font-family:"Times New Roman", "Times", serif; color:#000000; }
+		.default { font-size:12pt; font-family:"Times New Roman", "Times", serif; color:#000000; }
+		.qinfo { font-size:12pt; font-family:"Times New Roman", "Times", serif; color:#000000; }
+		.points { font-size:8pt; font-family:"Times New Roman", "Times", serif; color:#000000; }
+		TD.pad { padding: 0pt 4pt 0pt 4pt; }
+		.font1 { font-family:"Times New Roman", "Times", serif; }
+		.font2 { font-family:"Arial", "Helvetica", sans-serif; }
+		.font3 { font-family:"Arial", "Helvetica", sans-serif; }
+	</style>
+<script type='text/javascript' language='JavaScript1.1'>
+<!--
+	// Copyright (c) 2000-2008 eInstruction Corp.
+	var listMap = '111111111111111111111111111111111111111111111111111111111111';
+	var qtypeMap = '222222222222222222222222222222222222222222222222222222222222';
+	var ansMap = new Array(60);
+	var ptsMap = new Array(60);
+	ansMap[0] = '42';
+	ptsMap[0] = 1;
+	ansMap[1] = '43';
+	ptsMap[1] = 1;
+	ansMap[2] = '41';
+	ptsMap[2] = 1;
+	ansMap[3] = '45';
+	ptsMap[3] = 1;
+	ansMap[4] = '46';
+	ptsMap[4] = 1;
+	ansMap[5] = '44';
+	ptsMap[5] = 1;
+	ansMap[6] = '43';
+	ptsMap[6] = 1;
+	ansMap[7] = '4c';
+	ptsMap[7] = 1;
+	ansMap[8] = '4b';
+	ptsMap[8] = 1;
+	ansMap[9] = '48';
+	ptsMap[9] = 1;
+	ansMap[10] = '4a';
+	ptsMap[10] = 1;
+	ansMap[11] = '48';
+	ptsMap[11] = 1;
+	ansMap[12] = '4e';
+	ptsMap[12] = 1;
+	ansMap[13] = '4f';
+	ptsMap[13] = 1;
+	ansMap[14] = '4c';
+	ptsMap[14] = 1;
+	ansMap[15] = '53';
+	ptsMap[15] = 1;
+	ansMap[16] = '52';
+	ptsMap[16] = 1;
+	ansMap[17] = '53';
+	ptsMap[17] = 1;
+	ansMap[18] = '52';
+	ptsMap[18] = 1;
+	ansMap[19] = '56';
+	ptsMap[19] = 1;
+	ansMap[20] = '54';
+	ptsMap[20] = 1;
+	ansMap[21] = '55';
+	ptsMap[21] = 1;
+	ansMap[22] = '54';
+	ptsMap[22] = 1;
+	ansMap[23] = '59';
+	ptsMap[23] = 1;
+	ansMap[24] = '5a';
+	ptsMap[24] = 1;
+	ansMap[25] = '58';
+	ptsMap[25] = 1;
+	ansMap[26] = '5a';
+	ptsMap[26] = 1;
+	ansMap[27] = '5f';
+	ptsMap[27] = 1;
+	ansMap[28] = '5f';
+	ptsMap[28] = 1;
+	ansMap[29] = '5d';
+	ptsMap[29] = 1;
+	ansMap[30] = '5c';
+	ptsMap[30] = 1;
+	ansMap[31] = '42';
+	ptsMap[31] = 1;
+	ansMap[32] = '43';
+	ptsMap[32] = 1;
+	ansMap[33] = '42';
+	ptsMap[33] = 1;
+	ansMap[34] = '46';
+	ptsMap[34] = 1;
+	ansMap[35] = '44';
+	ptsMap[35] = 1;
+	ansMap[36] = '44';
+	ptsMap[36] = 1;
+	ansMap[37] = '45';
+	ptsMap[37] = 1;
+	ansMap[38] = '49';
+	ptsMap[38] = 1;
+	ansMap[39] = '4b';
+	ptsMap[39] = 1;
+	ansMap[40] = '4b';
+	ptsMap[40] = 1;
+	ansMap[41] = '4a';
+	ptsMap[41] = 1;
+	ansMap[42] = '48';
+	ptsMap[42] = 1;
+	ansMap[43] = '4e';
+	ptsMap[43] = 1;
+	ansMap[44] = '4c';
+	ptsMap[44] = 1;
+	ansMap[45] = '4c';
+	ptsMap[45] = 1;
+	ansMap[46] = '52';
+	ptsMap[46] = 1;
+	ansMap[47] = '55';
+	ptsMap[47] = 1;
+	ansMap[48] = '56';
+	ptsMap[48] = 1;
+	ansMap[49] = '57';
+	ptsMap[49] = 1;
+	ansMap[50] = '50';
+	ptsMap[50] = 1;
+	ansMap[51] = '54';
+	ptsMap[51] = 1;
+	ansMap[52] = '55';
+	ptsMap[52] = 1;
+	ansMap[53] = '53';
+	ptsMap[53] = 1;
+	ansMap[54] = '5b';
+	ptsMap[54] = 1;
+	ansMap[55] = '58';
+	ptsMap[55] = 1;
+	ansMap[56] = '59';
+	ptsMap[56] = 1;
+	ansMap[57] = '5a';
+	ptsMap[57] = 1;
+	ansMap[58] = '5d';
+	ptsMap[58] = 1;
+	ansMap[59] = '5f';
+	ptsMap[59] = 1;
+	function HandleSubmit(f)
+	{
+		var	MAGIC = 840;
+		var	totalCorrect = 0;
+		var	totalPossible = 0;
+		var	numCorrect = 0;
+		var	numPossible = 0;
+		var	numBlank = 0;
+		var	index;
+		var	msg;
+		var	i;
+
+		f.student_name.value = StripSpaces(f.student_name.value);
+		f.student_id.value = StripSpaces(f.student_id.value);
+		f.student_email.value = StripSpaces(f.student_email.value);
+
+		FixMR(f);
+		FixMTF(f);
+		index = 0;
+		for (i=0; i < f.length; ++i) {
+			if (f.elements[i].name.indexOf(":") > 0) {
+				if (listMap.charAt(index) == "1") {
+					listIndex = f.elements[i].selectedIndex;
+					text = StripSpaces(f.elements[i].options[listIndex].value);
+				} else {
+					f.elements[i].value = StripSpaces(f.elements[i].value);
+					text = f.elements[i].value;
+				}
+
+				if (text.length == 0)
+					++numBlank;
+				++index;
+			}
+		}
+
+		if (f.student_name.value == "") {
+			alert("Student name cannot be blank.");
+			return(false);
+		}
+
+		if (numBlank > 0) {
+			if (numBlank == 1)
+				msg = "1 question";
+			else
+				msg = numBlank + " questions";
+			if (!confirm("You have not answered " + msg +
+				"  Are you sure you want to end the test?"))
+				return(false);
+		}
+
+		index = 0;
+		var scoreDetails = new Array();
+		for (i=0; i < f.length; ++i) {
+			if (f.elements[i].name.indexOf(":") > 0) {
+				if (listMap.charAt(index) == "1") {
+					listIndex = f.elements[i].selectedIndex;
+					text = f.elements[i].options[listIndex].value;
+				} else
+					text = f.elements[i].value;
+
+				numPossible = ptsMap[index] * MAGIC;
+				if (ansMap[index] == "")
+					scoreDetails[index] = "?--";
+				else {
+					var scoreResult = ScoreAnswer(index, text, numPossible);
+					numCorrect = scoreResult.numPoints;
+					scoreDetails[index] = (scoreResult.isCorrect) ? " " : "X";
+					scoreDetails[index] += (Math.round(numCorrect * 100 / MAGIC) / 100).toString();
+					totalCorrect += numCorrect;
+					totalPossible += numPossible;
+				}
+
+				scoreDetails[index] += "/" + (numPossible / MAGIC);
+				++index;
+			}
+		}
+
+		f.score_details.value = scoreDetails.join("|");
+		f.score_correct.value = Math.round(totalCorrect * 100 / MAGIC) / 100;
+		f.score_possible.value = Math.round(totalPossible * 100 / MAGIC) / 100;
+		if (totalPossible > 0)
+			f.score_percent.value = Math.round(100.0 * totalCorrect / totalPossible);
+		else
+			f.score_percent.value = 0;
+
+		return(true);
+	}
+
+	function TranslateAnswer(s, answerIndex)
+	{
+		var	value;
+		var	newString;
+		var	code;
+		var	i;
+
+		value = (answerIndex % 31) + 1;
+		newString = "";
+		for (i=0; i < s.length; i += 2) {
+			code = parseInt(s.substring(i, i + 2), 16);
+			newString += String.fromCharCode(code ^ value);
+		}
+
+		return(newString);
+	}
+
+	function ScoreAnswer(answerIndex, responseText, pointsPossible)
+	{
+		var answerText = TranslateAnswer(ansMap[answerIndex], answerIndex);
+		var qtype = qtypeMap.charAt(answerIndex);
+		var nrExactMatch = false;
+		var result = new Array();
+
+		result.numPoints = 0;
+		result.isCorrect = false;
+
+		if (qtype == "3" && answerText.substring(0, 2) == "p:") {
+			answerText = answerText.substr(2);
+			if (responseText.toUpperCase() == answerText.toUpperCase())
+				result.isCorrect = true;
+			else
+				result.numPoints = MultiResponseCompare(responseText, answerText, pointsPossible);
+		} else if (qtype == "6") {
+			if (answerText.substring(0, 2) == "==") {
+				answerText = answerText.substr(2);
+				nrExactMatch = true;
+			}
+			if (NumericCompare(responseText, answerText, nrExactMatch))
+				result.isCorrect = true;
+		} else if (qtype == "7") {
+			if (CompletionCompare(responseText, answerText))
+				result.isCorrect = true;
+		} else if (responseText.toUpperCase() == answerText.toUpperCase())
+			result.isCorrect = true;
+
+		if (result.isCorrect)
+			result.numPoints = pointsPossible;
+
+		return(result);
+	}
+
+	function StripSpaces(s)
+	{
+		var	len;
+		var	i;
+
+		len = s.length;
+		for (i=len - 1; i >= 0 && s.charAt(i) == " "; --i)
+			len = i;
+
+		if (len == 0)
+			s = "";
+		else if (len != s.length)
+			s = s.substring(0, len);
+
+		return(s);
+	}
+
+	function MultiResponseCompare(responseText, answerText, pointsPossible)
+	{
+	}
+
+	function NumericCompare(response, answer, exactMatch)
+	{
+	}
+
+
+	function CompletionCompare(responseText, answerText)
+	{
+		return(false);
+	}
+
+	function FixMTF(f)
+	{
+	}
+
+	function FixMR(f)
+	{
+	}
+
+	function AllowReset()
+	{
+		return(window.confirm("Do you want to clear all of your answers?"));
+	}
+
+	function Restart()
+	{
+		if (AllowReset()) {
+			document.TestForm.onreset = function() { };
+			document.TestForm.reset();
+			document.TestForm.onreset = function() { AllowReset(); };
+		}
+	}
+// -->
+</script>
+</head>
+<body onResize='if(document.layers && navigator.appVersion.indexOf("Win") < 0){history.go(0);}'
+bgcolor='#FFFFFF' style='background-image:url(index_files/header.gif); background-repeat:no-repeat'>
+<noscript>
+	<h3><font color='#FF0000'>Javascript not enabled</font></h3>
+</noscript>
+<script type='text/javascript' language='JavaScript'>
+<!--
+if (navigator.appName.indexOf("Netscape") >= 0) {
+	if (parseInt(navigator.appVersion.charAt(0)) < 4)
+		alert("This document requires Netscape Navigator version 4.0 or later.");
+} else if (navigator.appName.indexOf("Explorer") >= 0) {
+	if (parseInt(navigator.appVersion.charAt(0)) < 4)
+		alert("This document requires Internet Explorer version 4.0 or later.");
+}
+// -->
+</script>
+<form name='TestForm' action='http://score.examview.com/cgi-bin/results.cgi' method='POST'
+	onSubmit='return(HandleSubmit(this))' onReset='return(AllowReset())'>
+<input type='hidden' name='product_version' value='6.2.1'>
+<input type='hidden' name='instructor_name' value='Levi'>
+<input type='hidden' name='instructor_formalname' value='Levi Corvera'>
+<input type='hidden' name='instructor_email' value='corveralevistudents@gmail.com'>
+<input type='hidden' name='instructor_org' value='SNSU'>
+<input type='hidden' name='instructor_city' value='Surigao'>
+<input type='hidden' name='instructor_state' value='13'>
+<input type='hidden' name='test_name' value='CpE 265 SOFTWARE DESIGN 2s2425 MIDTERM EXAMINATION'>
+<input type='hidden' name='other_label' value='Other'>
+<input type='hidden' name='test_mixed_questions' value='0'>
+<input type='hidden' name='score_correct' value='0'>
+<input type='hidden' name='score_possible' value='0'>
+<input type='hidden' name='score_percent' value='0'>
+<input type='hidden' name='score_subjective' value='0'>
+<input type='hidden' name='score_details' value=''>
+<input type='hidden' name='score_showresults' value='1'>
+<div class='spacer'>&nbsp;</div>
+<div class='default'>
+	<div style='margin-left:1em'>
+	<b>Name:</b>&nbsp;<input type='text' name='student_name' size='30'> &nbsp;&nbsp;
+	<b>ID:</b>&nbsp;<input type='text' name='student_id' size='12'><br>
+	<div class='spacer'>&nbsp;</div>
+	<b>Email:</b>&nbsp;<input type='text' name='student_email' size='45'><br><br>
+	</div>
+</div>
+<div class='title'>CpE 265 SOFTWARE DESIGN 2s2425 MIDTERM EXAMINATION</div>
+
+<table align='left' width='100%' border='0' cellpadding='0' cellspacing='0'>
+<tr valign='top'>
+	<td colspan='3'><br>
+<div class='default'><b>Multiple Choice</b><span style='font-size:10pt'><br></span><i>Identify the
+choice that best completes the statement or answers the question.</i></div>
+<div class='spacer'>&nbsp;</div>
+	</td>
+</tr>
+<tr valign='baseline'>
+	<td>
+		<select name='MC:1' align='top' onmousewheel='return(false);'>
+			<option value=' '> 
+			<option value='A'>A
+			<option value='B'>B
+			<option value='C'>C
+			<option value='D'>D
+		</select>
+	</td>
+	<td>
+		<p class='qnumber'>&nbsp;1.&nbsp;</p>
+	</td>
+	<td width='100%'>
+<div class='default'>In the context of software design, what is the significance of the Waterfall
+model?</div>
+<div class='default'><table cellpadding='0' cellspacing='0' width='95%' border='0'><tr
+valign='baseline'><td width='4%'><div class='choice'>a.</div></td><td width='46%'><span
+class='default'>It emphasizes iterative development</span></td><td width='4%'><div
+class='choice'>c.</div></td><td width='46%'><span class='default'>It follows a linear sequential
+approach</span></td></tr><tr valign='baseline'><td><div class='choice'>b.</div></td><td><span
+class='default'>It prioritizes customer collaboration</span></td><td><div
+class='choice'>d.</div></td><td><span class='default'>It encourages constant software
+updates</span></td></tr></table></div>
+<div class='spacer'>&nbsp;</div>
+	</td>
+</tr>
+<tr valign='baseline'>
+	<td>
+		<select name='MC:2' align='top' onmousewheel='return(false);'>
+			<option value=' '> 
+			<option value='A'>A
+			<option value='B'>B
+			<option value='C'>C
+			<option value='D'>D
+		</select>
+	</td>
+	<td>
+		<p class='qnumber'>&nbsp;2.&nbsp;</p>
+	</td>
+	<td width='100%'>
+<div class='default'>You&#039;re designing software for a healthcare institution to manage patient
+records securely. Which design principle would be essential to ensure compliance with data protection
+regulations such as HIPAA (Health Insurance Portability and Accountability Act)?</div>
+<div class='default'><table cellpadding='0' cellspacing='0' width='95%' border='0'><tr
+valign='baseline'><td width='4%'><div class='choice'>a.</div></td><td width='46%'><span
+class='default'>Security</span></td><td width='4%'><div class='choice'>c.</div></td><td
+width='46%'><span class='default'>Abstraction</span></td></tr><tr valign='baseline'><td><div
+class='choice'>b.</div></td><td><span class='default'>Encapsulation</span></td><td><div
+class='choice'>d.</div></td><td><span class='default'>Inheritance</span></td></tr></table></div>
+<div class='spacer'>&nbsp;</div>
+	</td>
+</tr>
+<tr valign='baseline'>
+	<td>
+		<select name='MC:3' align='top' onmousewheel='return(false);'>
+			<option value=' '> 
+			<option value='A'>A
+			<option value='B'>B
+			<option value='C'>C
+			<option value='D'>D
+		</select>
+	</td>
+	<td>
+		<p class='qnumber'>&nbsp;3.&nbsp;</p>
+	</td>
+	<td width='100%'>
+<div class='default'>You&#039;re in the initial phase of software design, gathering requirements from
+stakeholders. Which activity is crucial to ensure a comprehensive understanding of user needs?</div>
+<div class='default'><table cellpadding='0' cellspacing='0' width='95%' border='0'><tr
+valign='baseline'><td width='4%'><div class='choice'>a.</div></td><td width='46%'><span
+class='default'>Prototyping</span></td><td width='4%'><div class='choice'>c.</div></td><td
+width='46%'><span class='default'>Code Review</span></td></tr><tr valign='baseline'><td><div
+class='choice'>b.</div></td><td><span class='default'>User Interviews</span></td><td><div
+class='choice'>d.</div></td><td><span class='default'>Unit Testing</span></td></tr></table></div>
+<div class='spacer'>&nbsp;</div>
+	</td>
+</tr>
+<tr valign='baseline'>
+	<td>
+		<select name='MC:4' align='top' onmousewheel='return(false);'>
+			<option value=' '> 
+			<option value='A'>A
+			<option value='B'>B
+			<option value='C'>C
+			<option value='D'>D
+		</select>
+	</td>
+	<td>
+		<p class='qnumber'>&nbsp;4.&nbsp;</p>
+	</td>
+	<td width='100%'>
+<div class='default'>During the interface design phase, you&#039;re designing the user interface for
+a mobile banking app. Which design principle would ensure a user-friendly interface?</div>
+<div class='default'><table cellpadding='0' cellspacing='0' width='95%' border='0'><tr
+valign='baseline'><td width='4%'><div class='choice'>a.</div></td><td width='46%'><span
+class='default'>Consistency</span></td><td width='4%'><div class='choice'>c.</div></td><td
+width='46%'><span class='default'>Inheritance</span></td></tr><tr valign='baseline'><td><div
+class='choice'>b.</div></td><td><span class='default'>Encapsulation</span></td><td><div
+class='choice'>d.</div></td><td><span class='default'>Polymorphism</span></td></tr></table></div>
+<div class='spacer'>&nbsp;</div>
+	</td>
+</tr>
+<tr valign='baseline'>
+	<td>
+		<select name='MC:5' align='top' onmousewheel='return(false);'>
+			<option value=' '> 
+			<option value='A'>A
+			<option value='B'>B
+			<option value='C'>C
+			<option value='D'>D
+		</select>
+	</td>
+	<td>
+		<p class='qnumber'>&nbsp;5.&nbsp;</p>
+	</td>
+	<td width='100%'>
+<div class='default'>You&#039;re documenting the design decisions and rationale for a software system
+in the documentation phase. Which type of documentation would provide a high-level overview of system
+functionality and interactions?</div>
+<div class='default'><table cellpadding='0' cellspacing='0' width='95%' border='0'><tr
+valign='baseline'><td width='4%'><div class='choice'>a.</div></td><td width='46%'><span
+class='default'>User Manual</span></td><td width='4%'><div class='choice'>c.</div></td><td
+width='46%'><span class='default'>System Architecture Document</span></td></tr><tr
+valign='baseline'><td><div class='choice'>b.</div></td><td><span class='default'>Technical
+Specification</span></td><td><div class='choice'>d.</div></td><td><span class='default'>Design
+Document</span></td></tr></table></div>
+<div class='spacer'>&nbsp;</div>
+	</td>
+</tr>
+<tr valign='baseline'>
+	<td>
+		<select name='MC:6' align='top' onmousewheel='return(false);'>
+			<option value=' '> 
+			<option value='A'>A
+			<option value='B'>B
+			<option value='C'>C
+			<option value='D'>D
+		</select>
+	</td>
+	<td>
+		<p class='qnumber'>&nbsp;6.&nbsp;</p>
+	</td>
+	<td width='100%'>
+<div class='default'>You&#039;re tasked with implementing a recursive function to calculate the
+factorial of a given number. What is the base case for this recursive function?</div>
+<div class='default'><table cellpadding='0' cellspacing='0' width='95%' border='0'><tr
+valign='baseline'><td width='4%'><div class='choice'>a.</div></td><td width='46%'><span
+class='default'>n == 0</span></td><td width='4%'><div class='choice'>c.</div></td><td
+width='46%'><span class='default'>n == -1</span></td></tr><tr valign='baseline'><td><div
+class='choice'>b.</div></td><td><span class='default'>n == 1</span></td><td><div
+class='choice'>d.</div></td><td><span class='default'>n == 2</span></td></tr></table></div>
+<div class='spacer'>&nbsp;</div>
+	</td>
+</tr>
+<tr valign='baseline'>
+	<td>
+		<select name='MC:7' align='top' onmousewheel='return(false);'>
+			<option value=' '> 
+			<option value='A'>A
+			<option value='B'>B
+			<option value='C'>C
+			<option value='D'>D
+		</select>
+	</td>
+	<td>
+		<p class='qnumber'>&nbsp;7.&nbsp;</p>
+	</td>
+	<td width='100%'>
+<div class='default'>You&#039;re developing a Python application to handle user interactions in a
+graphical user interface (GUI), where actions triggered by users generate events. Which programming
+paradigm would best support this event-driven architecture?</div>
+<div class='default'><table cellpadding='0' cellspacing='0' width='95%' border='0'><tr
+valign='baseline'><td width='4%'><div class='choice'>a.</div></td><td width='46%'><span
+class='default'>Imperative programming</span></td><td width='4%'><div class='choice'>c.</div></td><td
+width='46%'><span class='default'>Functional programming</span></td></tr><tr
+valign='baseline'><td><div class='choice'>b.</div></td><td><span class='default'>Object-Oriented
+Programming (OOP)</span></td><td><div class='choice'>d.</div></td><td><span
+class='default'>Event-Driven Programming</span></td></tr></table></div>
+<div class='spacer'>&nbsp;</div>
+	</td>
+</tr>
+<tr valign='baseline'>
+	<td>
+		<select name='MC:8' align='top' onmousewheel='return(false);'>
+			<option value=' '> 
+			<option value='A'>A
+			<option value='B'>B
+			<option value='C'>C
+			<option value='D'>D
+		</select>
+	</td>
+	<td>
+		<p class='qnumber'>&nbsp;8.&nbsp;</p>
+	</td>
+	<td width='100%'>
+<div class='default'>You&#039;re designing a Python program to process multiple tasks concurrently,
+leveraging parallel execution to improve performance. Which programming paradigm would be most
+effective for expressing this concurrent behavior?</div>
+<div class='default'><table cellpadding='0' cellspacing='0' width='95%' border='0'><tr
+valign='baseline'><td width='4%'><div class='choice'>a.</div></td><td width='46%'><span
+class='default'>Imperative programming</span></td><td width='4%'><div class='choice'>c.</div></td><td
+width='46%'><span class='default'>Functional programming</span></td></tr><tr
+valign='baseline'><td><div class='choice'>b.</div></td><td><span class='default'>Object-Oriented
+Programming (OOP)</span></td><td><div class='choice'>d.</div></td><td><span
+class='default'>Concurrent Programming</span></td></tr></table></div>
+<div class='spacer'>&nbsp;</div>
+	</td>
+</tr>
+<tr valign='baseline'>
+	<td>
+		<select name='MC:9' align='top' onmousewheel='return(false);'>
+			<option value=' '> 
+			<option value='A'>A
+			<option value='B'>B
+			<option value='C'>C
+			<option value='D'>D
+		</select>
+	</td>
+	<td>
+		<p class='qnumber'>&nbsp;9.&nbsp;</p>
+	</td>
+	<td width='100%'>
+<div class='default'>You&#039;re developing a Python program to solve a complex mathematical problem
+by decomposing it into smaller, independent sub-problems. Which programming paradigm would support
+this approach through modularity and abstraction?</div>
+<div class='default'><table cellpadding='0' cellspacing='0' width='95%' border='0'><tr
+valign='baseline'><td width='4%'><div class='choice'>a.</div></td><td width='46%'><span
+class='default'>Imperative programming</span></td><td width='4%'><div class='choice'>c.</div></td><td
+width='46%'><span class='default'>Functional programming</span></td></tr><tr
+valign='baseline'><td><div class='choice'>b.</div></td><td><span class='default'>Object-Oriented
+Programming (OOP)</span></td><td><div class='choice'>d.</div></td><td><span
+class='default'>Declarative programming</span></td></tr></table></div>
+<div class='spacer'>&nbsp;</div>
+	</td>
+</tr>
+<tr valign='baseline'>
+	<td>
+		<select name='MC:10' align='top' onmousewheel='return(false);'>
+			<option value=' '> 
+			<option value='A'>A
+			<option value='B'>B
+			<option value='C'>C
+			<option value='D'>D
+		</select>
+	</td>
+	<td>
+		<p class='qnumber'>&nbsp;10.&nbsp;</p>
+	</td>
+	<td width='100%'>
+<div class='default'>You&#039;re developing a Python program to manage a database of student records,
+where each record contains attributes such as name, age, and grade. Which programming paradigm would
+facilitate organizing student records as objects with associated methods and properties?</div>
+<div class='default'><table cellpadding='0' cellspacing='0' width='95%' border='0'><tr
+valign='baseline'><td width='4%'><div class='choice'>a.</div></td><td width='46%'><span
+class='default'>Imperative programming</span></td><td width='4%'><div class='choice'>c.</div></td><td
+width='46%'><span class='default'>Functional programming</span></td></tr><tr
+valign='baseline'><td><div class='choice'>b.</div></td><td><span class='default'>Object-Oriented
+Programming (OOP)</span></td><td><div class='choice'>d.</div></td><td><span
+class='default'>Declarative programming</span></td></tr></table></div>
+<div class='spacer'>&nbsp;</div>
+	</td>
+</tr>
+<tr valign='baseline'>
+	<td>
+		<select name='MC:11' align='top' onmousewheel='return(false);'>
+			<option value=' '> 
+			<option value='A'>A
+			<option value='B'>B
+			<option value='C'>C
+			<option value='D'>D
+		</select>
+	</td>
+	<td>
+		<p class='qnumber'>&nbsp;11.&nbsp;</p>
+	</td>
+	<td width='100%'>
+<div class='default'>You&#039;re designing a database schema to store employee information for a
+multinational corporation. Which database design principle involves ensuring that each attribute in a
+relation is atomic and does not contain multiple values?</div>
+<div class='default'><table cellpadding='0' cellspacing='0' width='95%' border='0'><tr
+valign='baseline'><td width='4%'><div class='choice'>a.</div></td><td width='46%'><span
+class='default'>Normalization</span></td><td width='4%'><div class='choice'>c.</div></td><td
+width='46%'><span class='default'>Indexing</span></td></tr><tr valign='baseline'><td><div
+class='choice'>b.</div></td><td><span class='default'>Denormalization</span></td><td><div
+class='choice'>d.</div></td><td><span class='default'>Data Modeling</span></td></tr></table></div>
+<div class='spacer'>&nbsp;</div>
+	</td>
+</tr>
+<tr valign='baseline'>
+	<td>
+		<select name='MC:12' align='top' onmousewheel='return(false);'>
+			<option value=' '> 
+			<option value='A'>A
+			<option value='B'>B
+			<option value='C'>C
+			<option value='D'>D
+		</select>
+	</td>
+	<td>
+		<p class='qnumber'>&nbsp;12.&nbsp;</p>
+	</td>
+	<td width='100%'>
+<div class='default'>You&#039;re analyzing customer purchasing patterns for a retail business using
+historical transaction data stored in a data warehouse. Which aspect of database fundamentals
+involves aggregating and processing large volumes of data to generate insights for business
+decision-making?</div>
+<div class='default'><table cellpadding='0' cellspacing='0' width='95%' border='0'><tr
+valign='baseline'><td width='4%'><div class='choice'>a.</div></td><td width='46%'><span
+class='default'>Introduction to Database Systems</span></td><td width='4%'><div
+class='choice'>c.</div></td><td width='46%'><span class='default'>Database Design and Data
+Modeling</span></td></tr><tr valign='baseline'><td><div class='choice'>b.</div></td><td><span
+class='default'>Types of Database Systems</span></td><td><div class='choice'>d.</div></td><td><span
+class='default'>Data Warehousing and Business Intelligence</span></td></tr></table></div>
+<div class='spacer'>&nbsp;</div>
+	</td>
+</tr>
+<tr valign='baseline'>
+	<td>
+		<select name='MC:13' align='top' onmousewheel='return(false);'>
+			<option value=' '> 
+			<option value='A'>A
+			<option value='B'>B
+			<option value='C'>C
+			<option value='D'>D
+		</select>
+	</td>
+	<td>
+		<p class='qnumber'>&nbsp;13.&nbsp;</p>
+	</td>
+	<td width='100%'>
+<div class='default'>You&#039;re developing a mobile app for a fitness tracker. What software design
+principle would ensure that the app remains modular and scalable?</div>
+<div class='default'><table cellpadding='0' cellspacing='0' width='95%' border='0'><tr
+valign='baseline'><td width='4%'><div class='choice'>a.</div></td><td width='46%'><span
+class='default'>Encapsulation</span></td><td width='4%'><div class='choice'>c.</div></td><td
+width='46%'><span class='default'>Cohesion</span></td></tr><tr valign='baseline'><td><div
+class='choice'>b.</div></td><td><span class='default'>Abstraction</span></td><td><div
+class='choice'>d.</div></td><td><span class='default'>Coupling</span></td></tr></table></div>
+<div class='spacer'>&nbsp;</div>
+	</td>
+</tr>
+<tr valign='baseline'>
+	<td>
+		<select name='MC:14' align='top' onmousewheel='return(false);'>
+			<option value=' '> 
+			<option value='A'>A
+			<option value='B'>B
+			<option value='C'>C
+			<option value='D'>D
+		</select>
+	</td>
+	<td>
+		<p class='qnumber'>&nbsp;14.&nbsp;</p>
+	</td>
+	<td width='100%'>
+<div class='default'>You&#039;re designing software for a real-time monitoring system in a
+manufacturing plant. Which design approach would you prioritize to ensure timely data processing and
+analysis?</div>
+<div class='default'><table cellpadding='0' cellspacing='0' width='95%' border='0'><tr
+valign='baseline'><td width='4%'><div class='choice'>a.</div></td><td width='46%'><span
+class='default'>Event-Driven Architecture</span></td><td width='4%'><div
+class='choice'>c.</div></td><td width='46%'><span class='default'>Service-Oriented
+Architecture</span></td></tr><tr valign='baseline'><td><div class='choice'>b.</div></td><td><span
+class='default'>Layered Architecture</span></td><td><div class='choice'>d.</div></td><td><span
+class='default'>Component-Based Architecture</span></td></tr></table></div>
+<div class='spacer'>&nbsp;</div>
+	</td>
+</tr>
+<tr valign='baseline'>
+	<td>
+		<select name='MC:15' align='top' onmousewheel='return(false);'>
+			<option value=' '> 
+			<option value='A'>A
+			<option value='B'>B
+			<option value='C'>C
+			<option value='D'>D
+		</select>
+	</td>
+	<td>
+		<p class='qnumber'>&nbsp;15.&nbsp;</p>
+	</td>
+	<td width='100%'>
+<div class='default'>You&#039;re tasked with designing software for an autonomous drone. To ensure
+precise control and stability, which architectural style would you adopt?</div>
+<div class='default'><table cellpadding='0' cellspacing='0' width='95%' border='0'><tr
+valign='baseline'><td width='4%'><div class='choice'>a.</div></td><td width='46%'><span
+class='default'>Event-Driven Architecture</span></td><td width='4%'><div
+class='choice'>c.</div></td><td width='46%'><span class='default'>Microkernel
+Architecture</span></td></tr><tr valign='baseline'><td><div class='choice'>b.</div></td><td><span
+class='default'>Layered Architecture</span></td><td><div class='choice'>d.</div></td><td><span
+class='default'>Client-Server Architecture</span></td></tr></table></div>
+<div class='spacer'>&nbsp;</div>
+	</td>
+</tr>
+<tr valign='baseline'>
+	<td>
+		<select name='MC:16' align='top' onmousewheel='return(false);'>
+			<option value=' '> 
+			<option value='A'>A
+			<option value='B'>B
+			<option value='C'>C
+			<option value='D'>D
+		</select>
+	</td>
+	<td>
+		<p class='qnumber'>&nbsp;16.&nbsp;</p>
+	</td>
+	<td width='100%'>
+<div class='default'>In the maintenance phase, you receive feedback from users about a performance
+issue in a scheduling module of a project management software. Which maintenance activity would be
+most appropriate to address this issue?</div>
+<div class='default'><table cellpadding='0' cellspacing='0' width='95%' border='0'><tr
+valign='baseline'><td width='4%'><div class='choice'>a.</div></td><td width='46%'><span
+class='default'>Corrective maintenance</span></td><td width='4%'><div class='choice'>c.</div></td><td
+width='46%'><span class='default'>Perfective maintenance</span></td></tr><tr
+valign='baseline'><td><div class='choice'>b.</div></td><td><span class='default'>Adaptive
+maintenance</span></td><td><div class='choice'>d.</div></td><td><span class='default'>Preventive
+maintenance</span></td></tr></table></div>
+<div class='spacer'>&nbsp;</div>
+	</td>
+</tr>
+<tr valign='baseline'>
+	<td>
+		<select name='MC:17' align='top' onmousewheel='return(false);'>
+			<option value=' '> 
+			<option value='A'>A
+			<option value='B'>B
+			<option value='C'>C
+			<option value='D'>D
+		</select>
+	</td>
+	<td>
+		<p class='qnumber'>&nbsp;17.&nbsp;</p>
+	</td>
+	<td width='100%'>
+<div class='default'>You&#039;re developing a program to calculate the average temperature of a city
+over a week. Which programming construct would you use to iterate through each day&#039;s temperature
+readings?</div>
+<div class='default'><table cellpadding='0' cellspacing='0' width='95%' border='0'><tr
+valign='baseline'><td width='4%'><div class='choice'>a.</div></td><td width='46%'><span
+class='default'>Conditional statements</span></td><td width='4%'><div class='choice'>c.</div></td><td
+width='46%'><span class='default'>Loops</span></td></tr><tr valign='baseline'><td><div
+class='choice'>b.</div></td><td><span class='default'>Recursion</span></td><td><div
+class='choice'>d.</div></td><td><span class='default'>Data structures</span></td></tr></table></div>
+<div class='spacer'>&nbsp;</div>
+	</td>
+</tr>
+<tr valign='baseline'>
+	<td>
+		<select name='MC:18' align='top' onmousewheel='return(false);'>
+			<option value=' '> 
+			<option value='A'>A
+			<option value='B'>B
+			<option value='C'>C
+			<option value='D'>D
+		</select>
+	</td>
+	<td>
+		<p class='qnumber'>&nbsp;18.&nbsp;</p>
+	</td>
+	<td width='100%'>
+<div class='default'>You&#039;re developing a program to sort a list of names alphabetically. Which
+programming construct would you use to implement a sorting algorithm recursively?</div>
+<div class='default'><table cellpadding='0' cellspacing='0' width='95%' border='0'><tr
+valign='baseline'><td width='4%'><div class='choice'>a.</div></td><td width='46%'><span
+class='default'>Functions/Methods</span></td><td width='4%'><div class='choice'>c.</div></td><td
+width='46%'><span class='default'>Conditional statements</span></td></tr><tr
+valign='baseline'><td><div class='choice'>b.</div></td><td><span
+class='default'>Loops</span></td><td><div class='choice'>d.</div></td><td><span class='default'>Data
+structures</span></td></tr></table></div>
+<div class='spacer'>&nbsp;</div>
+	</td>
+</tr>
+<tr valign='baseline'>
+	<td>
+		<select name='MC:19' align='top' onmousewheel='return(false);'>
+			<option value=' '> 
+			<option value='A'>A
+			<option value='B'>B
+			<option value='C'>C
+			<option value='D'>D
+		</select>
+	</td>
+	<td>
+		<p class='qnumber'>&nbsp;19.&nbsp;</p>
+	</td>
+	<td width='100%'>
+<div class='default'>You&#039;re developing a Python program to sort a list of names alphabetically.
+Which Python construct would you use to implement a sorting algorithm recursively?</div>
+<div class='default'><table cellpadding='0' cellspacing='0' width='95%' border='0'><tr
+valign='baseline'><td width='4%'><div class='choice'>a.</div></td><td width='46%'><span
+class='default'>Functions</span></td><td width='4%'><div class='choice'>c.</div></td><td
+width='46%'><span class='default'>Conditional statements</span></td></tr><tr
+valign='baseline'><td><div class='choice'>b.</div></td><td><span
+class='default'>Loops</span></td><td><div class='choice'>d.</div></td><td><span class='default'>Data
+structures</span></td></tr></table></div>
+<div class='spacer'>&nbsp;</div>
+	</td>
+</tr>
+<tr valign='baseline'>
+	<td>
+		<select name='MC:20' align='top' onmousewheel='return(false);'>
+			<option value=' '> 
+			<option value='A'>A
+			<option value='B'>B
+			<option value='C'>C
+			<option value='D'>D
+		</select>
+	</td>
+	<td>
+		<p class='qnumber'>&nbsp;20.&nbsp;</p>
+	</td>
+	<td width='100%'>
+<div class='default'>You&#039;re designing a Python program to generate Fibonacci numbers up to a
+specified limit. Which Python construct would you use to efficiently store and access previously
+generated Fibonacci numbers?</div>
+<div class='default'><table cellpadding='0' cellspacing='0' width='95%' border='0'><tr
+valign='baseline'><td width='4%'><div class='choice'>a.</div></td><td width='46%'><span
+class='default'>Variables</span></td><td width='4%'><div class='choice'>c.</div></td><td
+width='46%'><span class='default'>Functions</span></td></tr><tr valign='baseline'><td><div
+class='choice'>b.</div></td><td><span class='default'>Data structures</span></td><td><div
+class='choice'>d.</div></td><td><span class='default'>Loops</span></td></tr></table></div>
+<div class='spacer'>&nbsp;</div>
+	</td>
+</tr>
+<tr valign='baseline'>
+	<td>
+		<select name='MC:21' align='top' onmousewheel='return(false);'>
+			<option value=' '> 
+			<option value='A'>A
+			<option value='B'>B
+			<option value='C'>C
+			<option value='D'>D
+		</select>
+	</td>
+	<td>
+		<p class='qnumber'>&nbsp;21.&nbsp;</p>
+	</td>
+	<td width='100%'>
+<div class='default'>You&#039;re developing a Python program to find the sum of all even numbers
+within a given range. Which code snippet correctly implements this task?</div>
+<div class='default'><table cellpadding='0' cellspacing='0' width='95%' border='0'><tr
+valign='baseline'><td width='4%'><div class='choice'>a.</div></td><td width='46%'><span
+class='default'>def sum_of_evens(start, end):<br>&nbsp;&nbsp;&nbsp; total_sum =
+0<br>&nbsp;&nbsp;&nbsp; for num in range(start, end +
+1):<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if num % 2 ==
+0:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; total_sum +=
+num<br>&nbsp;&nbsp;&nbsp; return total_sum</span></td><td width='4%'><div
+class='choice'>c.</div></td><td width='46%'><span class='default'>def sum_of_evens(start,
+end):<br>&nbsp;&nbsp;&nbsp; total_sum = 0<br>&nbsp;&nbsp;&nbsp; for num in range(start, end +
+1):<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; total_sum += num<br>&nbsp;&nbsp;&nbsp; return
+total_sum</span></td></tr><tr valign='baseline'><td><div class='choice'>b.</div></td><td><span
+class='default'>def sum_of_evens(start, end):<br>&nbsp;&nbsp;&nbsp; return sum(&#091;num for num in
+range(start, end + 1) if num % 2 == 0&#093;)</span></td><td><div
+class='choice'>d.</div></td><td><span class='default'>def sum_of_evens(start,
+end):<br>&nbsp;&nbsp;&nbsp; return sum(range(start, end + 1, 2))</span></td></tr></table></div>
+<div class='spacer'>&nbsp;</div>
+	</td>
+</tr>
+<tr valign='baseline'>
+	<td>
+		<select name='MC:22' align='top' onmousewheel='return(false);'>
+			<option value=' '> 
+			<option value='A'>A
+			<option value='B'>B
+			<option value='C'>C
+			<option value='D'>D
+		</select>
+	</td>
+	<td>
+		<p class='qnumber'>&nbsp;22.&nbsp;</p>
+	</td>
+	<td width='100%'>
+<div class='default'>You&#039;re tasked with writing a Python program to reverse a given list of
+integers without using any built-in functions. Which code snippet correctly implements this
+task?</div>
+<div class='default'><table cellpadding='0' cellspacing='0' width='95%' border='0'><tr
+valign='baseline'><td width='4%'><div class='choice'>a.</div></td><td width='46%'><span
+class='default'>def reverse_list(lst):<br>&nbsp;&nbsp;&nbsp; return
+lst&#091;::-1&#093;<br></span></td><td width='4%'><div class='choice'>c.</div></td><td
+width='46%'><span class='default'>def reverse_list(lst):<br>&nbsp;&nbsp;&nbsp; reversed_lst =
+&#091;&#093;<br>&nbsp;&nbsp;&nbsp; for i in range(len(lst) - 1, -1,
+-1):<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+reversed_lst.append(lst&#091;i&#093;)<br>&nbsp;&nbsp;&nbsp; return
+reversed_lst<br></span></td></tr><tr valign='baseline'><td><div class='choice'>b.</div></td><td><span
+class='default'>def reverse_list(lst):<br>&nbsp;&nbsp;&nbsp; return
+list(reversed(lst))<br></span></td><td><div class='choice'>d.</div></td><td><span class='default'>def
+reverse_list(lst):<br>&nbsp;&nbsp;&nbsp; return lst.reverse()</span></td></tr></table></div>
+<div class='spacer'>&nbsp;</div>
+	</td>
+</tr>
+<tr valign='baseline'>
+	<td>
+		<select name='MC:23' align='top' onmousewheel='return(false);'>
+			<option value=' '> 
+			<option value='A'>A
+			<option value='B'>B
+			<option value='C'>C
+			<option value='D'>D
+		</select>
+	</td>
+	<td>
+		<p class='qnumber'>&nbsp;23.&nbsp;</p>
+	</td>
+	<td width='100%'>
+<div class='default'>You&#039;re tasked with implementing a Python program to transform a given list
+of integers into a new list by applying a specific operation to each element. Which programming
+paradigm would provide a concise and expressive way to achieve this transformation?</div>
+<div class='default'><table cellpadding='0' cellspacing='0' width='95%' border='0'><tr
+valign='baseline'><td width='4%'><div class='choice'>a.</div></td><td width='46%'><span
+class='default'>Imperative programming</span></td><td width='4%'><div class='choice'>c.</div></td><td
+width='46%'><span class='default'>Functional programming</span></td></tr><tr
+valign='baseline'><td><div class='choice'>b.</div></td><td><span class='default'>Object-Oriented
+Programming (OOP)</span></td><td><div class='choice'>d.</div></td><td><span
+class='default'>Declarative programming</span></td></tr></table></div>
+<div class='spacer'>&nbsp;</div>
+	</td>
+</tr>
+<tr valign='baseline'>
+	<td>
+		<select name='MC:24' align='top' onmousewheel='return(false);'>
+			<option value=' '> 
+			<option value='A'>A
+			<option value='B'>B
+			<option value='C'>C
+			<option value='D'>D
+		</select>
+	</td>
+	<td>
+		<p class='qnumber'>&nbsp;24.&nbsp;</p>
+	</td>
+	<td width='100%'>
+<div class='default'>You&#039;re tasked with solving a complex mathematical problem involving
+multiple variables and constraints. Which problem-solving strategy would you use to simplify the
+problem by focusing on essential aspects and ignoring irrelevant details?</div>
+<div class='default'><table cellpadding='0' cellspacing='0' width='95%' border='0'><tr
+valign='baseline'><td width='4%'><div class='choice'>a.</div></td><td width='46%'><span
+class='default'>Abstraction</span></td><td width='4%'><div class='choice'>c.</div></td><td
+width='46%'><span class='default'>Pattern recognition</span></td></tr><tr valign='baseline'><td><div
+class='choice'>b.</div></td><td><span class='default'>Decomposition</span></td><td><div
+class='choice'>d.</div></td><td><span class='default'>Experimentation</span></td></tr></table></div>
+<div class='spacer'>&nbsp;</div>
+	</td>
+</tr>
+<tr valign='baseline'>
+	<td>
+		<select name='MC:25' align='top' onmousewheel='return(false);'>
+			<option value=' '> 
+			<option value='A'>A
+			<option value='B'>B
+			<option value='C'>C
+			<option value='D'>D
+		</select>
+	</td>
+	<td>
+		<p class='qnumber'>&nbsp;25.&nbsp;</p>
+	</td>
+	<td width='100%'>
+<div class='default'>You&#039;re faced with a challenging programming task that requires
+understanding and applying a complex algorithm. Which problem-solving strategy would you use to
+identify similar patterns or solutions from previous experiences or literature?</div>
+<div class='default'><table cellpadding='0' cellspacing='0' width='95%' border='0'><tr
+valign='baseline'><td width='4%'><div class='choice'>a.</div></td><td width='46%'><span
+class='default'>Abstraction</span></td><td width='4%'><div class='choice'>c.</div></td><td
+width='46%'><span class='default'>Pattern recognition</span></td></tr><tr valign='baseline'><td><div
+class='choice'>b.</div></td><td><span class='default'>Decomposition</span></td><td><div
+class='choice'>d.</div></td><td><span class='default'>Experimentation</span></td></tr></table></div>
+<div class='spacer'>&nbsp;</div>
+	</td>
+</tr>
+<tr valign='baseline'>
+	<td>
+		<select name='MC:26' align='top' onmousewheel='return(false);'>
+			<option value=' '> 
+			<option value='A'>A
+			<option value='B'>B
+			<option value='C'>C
+			<option value='D'>D
+		</select>
+	</td>
+	<td>
+		<p class='qnumber'>&nbsp;26.&nbsp;</p>
+	</td>
+	<td width='100%'>
+<div class='default'>You&#039;re tasked with designing a Python application to automate routine
+administrative tasks for a company. Which problem-solving strategy would you use to break down the
+administrative processes into smaller, automated tasks and workflows?</div>
+<div class='default'><table cellpadding='0' cellspacing='0' width='95%' border='0'><tr
+valign='baseline'><td width='4%'><div class='choice'>a.</div></td><td width='46%'><span
+class='default'>Abstraction</span></td><td width='4%'><div class='choice'>c.</div></td><td
+width='46%'><span class='default'>Pattern recognition</span></td></tr><tr valign='baseline'><td><div
+class='choice'>b.</div></td><td><span class='default'>Decomposition</span></td><td><div
+class='choice'>d.</div></td><td><span class='default'>Collaboration</span></td></tr></table></div>
+<div class='spacer'>&nbsp;</div>
+	</td>
+</tr>
+<tr valign='baseline'>
+	<td>
+		<select name='MC:27' align='top' onmousewheel='return(false);'>
+			<option value=' '> 
+			<option value='A'>A
+			<option value='B'>B
+			<option value='C'>C
+			<option value='D'>D
+		</select>
+	</td>
+	<td>
+		<p class='qnumber'>&nbsp;27.&nbsp;</p>
+	</td>
+	<td width='100%'>
+<div class='default'>You&#039;re tasked with developing a Python application to manage a large
+inventory system for an e-commerce platform. To simplify the problem and focus on essential details,
+which problem-solving strategy would you apply?</div>
+<div class='default'><table cellpadding='0' cellspacing='0' width='95%' border='0'><tr
+valign='baseline'><td width='4%'><div class='choice'>a.</div></td><td width='46%'><span
+class='default'>Abstraction</span></td><td width='4%'><div class='choice'>c.</div></td><td
+width='46%'><span class='default'>Pattern recognition</span></td></tr><tr valign='baseline'><td><div
+class='choice'>b.</div></td><td><span class='default'>Decomposition</span></td><td><div
+class='choice'>d.</div></td><td><span class='default'>Experimentation</span></td></tr></table></div>
+<div class='spacer'>&nbsp;</div>
+	</td>
+</tr>
+<tr valign='baseline'>
+	<td>
+		<select name='MC:28' align='top' onmousewheel='return(false);'>
+			<option value=' '> 
+			<option value='A'>A
+			<option value='B'>B
+			<option value='C'>C
+			<option value='D'>D
+		</select>
+	</td>
+	<td>
+		<p class='qnumber'>&nbsp;28.&nbsp;</p>
+	</td>
+	<td width='100%'>
+<div class='default'>You&#039;re designing a Python program to analyze customer feedback data and
+identify common themes or topics mentioned by customers. Which problem-solving strategy would you
+utilize to recognize recurring patterns or topics in the feedback data?</div>
+<div class='default'><table cellpadding='0' cellspacing='0' width='95%' border='0'><tr
+valign='baseline'><td width='4%'><div class='choice'>a.</div></td><td width='46%'><span
+class='default'>Abstraction</span></td><td width='4%'><div class='choice'>c.</div></td><td
+width='46%'><span class='default'>Pattern recognition</span></td></tr><tr valign='baseline'><td><div
+class='choice'>b.</div></td><td><span class='default'>Decomposition</span></td><td><div
+class='choice'>d.</div></td><td><span class='default'>Experimentation</span></td></tr></table></div>
+<div class='spacer'>&nbsp;</div>
+	</td>
+</tr>
+<tr valign='baseline'>
+	<td>
+		<select name='MC:29' align='top' onmousewheel='return(false);'>
+			<option value=' '> 
+			<option value='A'>A
+			<option value='B'>B
+			<option value='C'>C
+			<option value='D'>D
+		</select>
+	</td>
+	<td>
+		<p class='qnumber'>&nbsp;29.&nbsp;</p>
+	</td>
+	<td width='100%'>
+<div class='default'>You&#039;re faced with a complex bug in a Python application that&#039;s causing
+unexpected behavior. To systematically identify and resolve the bug, which problem-solving strategy
+would you employ?</div>
+<div class='default'><table cellpadding='0' cellspacing='0' width='95%' border='0'><tr
+valign='baseline'><td width='4%'><div class='choice'>a.</div></td><td width='46%'><span
+class='default'>Abstraction</span></td><td width='4%'><div class='choice'>c.</div></td><td
+width='46%'><span class='default'>Pattern recognition</span></td></tr><tr valign='baseline'><td><div
+class='choice'>b.</div></td><td><span class='default'>Decomposition</span></td><td><div
+class='choice'>d.</div></td><td><span class='default'>Experimentation</span></td></tr></table></div>
+<div class='spacer'>&nbsp;</div>
+	</td>
+</tr>
+<tr valign='baseline'>
+	<td>
+		<select name='MC:30' align='top' onmousewheel='return(false);'>
+			<option value=' '> 
+			<option value='A'>A
+			<option value='B'>B
+			<option value='C'>C
+			<option value='D'>D
+		</select>
+	</td>
+	<td>
+		<p class='qnumber'>&nbsp;30.&nbsp;</p>
+	</td>
+	<td width='100%'>
+<div class='default'>You&#039;re designing a Python program to recommend personalized movie choices
+based on user preferences and viewing history. Which problem-solving strategy would you use to
+identify similar patterns or preferences among users for movie recommendations?</div>
+<div class='default'><table cellpadding='0' cellspacing='0' width='95%' border='0'><tr
+valign='baseline'><td width='4%'><div class='choice'>a.</div></td><td width='46%'><span
+class='default'>Abstraction</span></td><td width='4%'><div class='choice'>c.</div></td><td
+width='46%'><span class='default'>Pattern recognition</span></td></tr><tr valign='baseline'><td><div
+class='choice'>b.</div></td><td><span class='default'>Decomposition</span></td><td><div
+class='choice'>d.</div></td><td><span class='default'>Collaboration</span></td></tr></table></div>
+<div class='spacer'>&nbsp;</div>
+	</td>
+</tr>
+<tr valign='baseline'>
+	<td>
+		<select name='MC:31' align='top' onmousewheel='return(false);'>
+			<option value=' '> 
+			<option value='A'>A
+			<option value='B'>B
+			<option value='C'>C
+			<option value='D'>D
+		</select>
+	</td>
+	<td>
+		<p class='qnumber'>&nbsp;31.&nbsp;</p>
+	</td>
+	<td width='100%'>
+<div class='default'>You&#039;re developing a Python application to generate reports summarizing
+sales data for a retail company. Which SQL clause would you use to aggregate data and calculate
+metrics such as total sales revenue and average order value?</div>
+<div class='default'><table cellpadding='0' cellspacing='0' width='95%' border='0'><tr
+valign='baseline'><td width='4%'><div class='choice'>a.</div></td><td width='46%'><span
+class='default'>SELECT</span></td><td width='4%'><div class='choice'>c.</div></td><td
+width='46%'><span class='default'>GROUP BY</span></td></tr><tr valign='baseline'><td><div
+class='choice'>b.</div></td><td><span class='default'>WHERE</span></td><td><div
+class='choice'>d.</div></td><td><span class='default'>JOIN</span></td></tr></table></div>
+<div class='spacer'>&nbsp;</div>
+	</td>
+</tr>
+<tr valign='baseline'>
+	<td>
+		<select name='MC:32' align='top' onmousewheel='return(false);'>
+			<option value=' '> 
+			<option value='A'>A
+			<option value='B'>B
+			<option value='C'>C
+			<option value='D'>D
+		</select>
+	</td>
+	<td>
+		<p class='qnumber'>&nbsp;32.&nbsp;</p>
+	</td>
+	<td width='100%'>
+<div class='default'>You&#039;re tasked with retrieving information about customers who made
+purchases exceeding $100 in a given month from a relational database. Which SQL query would you use
+to achieve this?</div>
+<div class='default'><table cellpadding='0' cellspacing='0' width='95%' border='0'><tr
+valign='baseline'><td width='4%'><div class='choice'>a.</div></td><td width='46%'><span
+class='default'>SELECT * FROM customers WHERE purchase_amount &gt; 100 AND MONTH(purchase_date) =
+&#039;January&#039;;</span></td><td width='4%'><div class='choice'>c.</div></td><td width='46%'><span
+class='default'>SELECT * FROM customers WHERE purchase_amount &gt; 100 AND EXTRACT(MONTH FROM
+purchase_date) = 1;</span></td></tr><tr valign='baseline'><td><div
+class='choice'>b.</div></td><td><span class='default'>SELECT * FROM customers WHERE purchase_amount
+&gt; 100 AND MONTH(purchase_date) = 1;</span></td><td><div class='choice'>d.</div></td><td><span
+class='default'>SELECT * FROM customers WHERE purchase_amount &gt; 100 AND MONTHNAME(purchase_date) =
+&#039;January&#039;;</span></td></tr></table></div>
+<div class='spacer'>&nbsp;</div>
+	</td>
+</tr>
+<tr valign='baseline'>
+	<td>
+		<select name='MC:33' align='top' onmousewheel='return(false);'>
+			<option value=' '> 
+			<option value='A'>A
+			<option value='B'>B
+			<option value='C'>C
+			<option value='D'>D
+		</select>
+	</td>
+	<td>
+		<p class='qnumber'>&nbsp;33.&nbsp;</p>
+	</td>
+	<td width='100%'>
+<div class='default'>You&#039;re developing a Python application to display a list of products
+ordered by the number of units sold in descending order. Which SQL query would you use to retrieve
+this information?</div>
+<div class='default'><table cellpadding='0' cellspacing='0' width='95%' border='0'><tr
+valign='baseline'><td width='4%'><div class='choice'>a.</div></td><td width='46%'><span
+class='default'>SELECT * FROM products ORDER BY units_sold DESC;</span></td><td width='4%'><div
+class='choice'>c.</div></td><td width='46%'><span class='default'>SELECT * FROM products SORT BY
+units_sold DESC;</span></td></tr><tr valign='baseline'><td><div class='choice'>b.</div></td><td><span
+class='default'>SELECT * FROM products ORDER BY units_sold ASC;</span></td><td><div
+class='choice'>d.</div></td><td><span class='default'>SELECT * FROM products SORT BY units_sold
+ASC;</span></td></tr></table></div>
+<div class='spacer'>&nbsp;</div>
+	</td>
+</tr>
+<tr valign='baseline'>
+	<td>
+		<select name='MC:34' align='top' onmousewheel='return(false);'>
+			<option value=' '> 
+			<option value='A'>A
+			<option value='B'>B
+			<option value='C'>C
+			<option value='D'>D
+		</select>
+	</td>
+	<td>
+		<p class='qnumber'>&nbsp;34.&nbsp;</p>
+	</td>
+	<td width='100%'>
+<div class='default'>You&#039;re tasked with retrieving the average salary of employees in each
+department from a relational database. Which SQL query would you use to calculate this?</div>
+<div class='default'><table cellpadding='0' cellspacing='0' width='95%' border='0'><tr
+valign='baseline'><td width='4%'><div class='choice'>a.</div></td><td width='46%'><span
+class='default'>SELECT department, AVG(salary) FROM employees GROUP BY department;</span></td><td
+width='4%'><div class='choice'>c.</div></td><td width='46%'><span class='default'>SELECT department,
+AVG(salary) FROM employees;</span></td></tr><tr valign='baseline'><td><div
+class='choice'>b.</div></td><td><span class='default'>SELECT AVG(salary) FROM employees GROUP BY
+department;</span></td><td><div class='choice'>d.</div></td><td><span class='default'>SELECT
+AVG(salary) FROM employees;</span></td></tr></table></div>
+<div class='spacer'>&nbsp;</div>
+	</td>
+</tr>
+<tr valign='baseline'>
+	<td>
+		<select name='MC:35' align='top' onmousewheel='return(false);'>
+			<option value=' '> 
+			<option value='A'>A
+			<option value='B'>B
+			<option value='C'>C
+			<option value='D'>D
+		</select>
+	</td>
+	<td>
+		<p class='qnumber'>&nbsp;35.&nbsp;</p>
+	</td>
+	<td width='100%'>
+<div class='default'>You&#039;re developing a Python application to retrieve the latest order placed
+by each customer from a relational database. Which SQL query would you use to accomplish this
+task?</div>
+<div class='default'><table cellpadding='0' cellspacing='0' width='95%' border='0'><tr
+valign='baseline'><td width='4%'><div class='choice'>a.</div></td><td width='46%'><span
+class='default'>SELECT * FROM orders ORDER BY order_date DESC GROUP BY customer_id;</span></td><td
+width='4%'><div class='choice'>c.</div></td><td width='46%'><span class='default'>SELECT * FROM
+orders WHERE order_date = MAX(order_date) GROUP BY customer_id;</span></td></tr><tr
+valign='baseline'><td><div class='choice'>b.</div></td><td><span class='default'>SELECT * FROM orders
+GROUP BY customer_id ORDER BY order_date DESC;</span></td><td><div
+class='choice'>d.</div></td><td><span class='default'>SELECT * FROM orders WHERE order_date =
+MAX(order_date);</span></td></tr></table></div>
+<div class='spacer'>&nbsp;</div>
+	</td>
+</tr>
+<tr valign='baseline'>
+	<td>
+		<select name='MC:36' align='top' onmousewheel='return(false);'>
+			<option value=' '> 
+			<option value='A'>A
+			<option value='B'>B
+			<option value='C'>C
+			<option value='D'>D
+		</select>
+	</td>
+	<td>
+		<p class='qnumber'>&nbsp;36.&nbsp;</p>
+	</td>
+	<td width='100%'>
+<div class='default'>You&#039;re tasked with retrieving the top 5 highest-paying jobs from a job
+listings database. Which SQL query would you use to retrieve this information?</div>
+<div class='default'><table cellpadding='0' cellspacing='0' width='95%' border='0'><tr
+valign='baseline'><td width='4%'><div class='choice'>a.</div></td><td width='46%'><span
+class='default'>SELECT job_title FROM jobs ORDER BY salary DESC LIMIT 5;</span></td><td
+width='4%'><div class='choice'>c.</div></td><td width='46%'><span class='default'>SELECT job_title
+FROM jobs ORDER BY salary DESC FETCH FIRST 5 ROWS ONLY;</span></td></tr><tr
+valign='baseline'><td><div class='choice'>b.</div></td><td><span class='default'>SELECT job_title
+FROM jobs ORDER BY salary ASC LIMIT 5;</span></td><td><div class='choice'>d.</div></td><td><span
+class='default'>SELECT job_title FROM jobs ORDER BY salary ASC FETCH FIRST 5 ROWS
+ONLY;</span></td></tr></table></div>
+<div class='spacer'>&nbsp;</div>
+	</td>
+</tr>
+<tr valign='baseline'>
+	<td>
+		<select name='MC:37' align='top' onmousewheel='return(false);'>
+			<option value=' '> 
+			<option value='A'>A
+			<option value='B'>B
+			<option value='C'>C
+			<option value='D'>D
+		</select>
+	</td>
+	<td>
+		<p class='qnumber'>&nbsp;37.&nbsp;</p>
+	</td>
+	<td width='100%'>
+<div class='default'>You&#039;re tasked with identifying a partial dependency in a relational
+database schema. Which normalization technique would help you eliminate this dependency by breaking
+down the schema into smaller, more manageable tables?</div>
+<div class='default'><table cellpadding='0' cellspacing='0' width='95%' border='0'><tr
+valign='baseline'><td width='4%'><div class='choice'>a.</div></td><td width='46%'><span
+class='default'>First Normal Form (1NF)</span></td><td width='4%'><div
+class='choice'>c.</div></td><td width='46%'><span class='default'>Third Normal Form
+(3NF)</span></td></tr><tr valign='baseline'><td><div class='choice'>b.</div></td><td><span
+class='default'>Second Normal Form (2NF)</span></td><td><div class='choice'>d.</div></td><td><span
+class='default'>Boyce-Codd Normal Form (BCNF)</span></td></tr></table></div>
+<div class='spacer'>&nbsp;</div>
+	</td>
+</tr>
+<tr valign='baseline'>
+	<td>
+		<select name='MC:38' align='top' onmousewheel='return(false);'>
+			<option value=' '> 
+			<option value='A'>A
+			<option value='B'>B
+			<option value='C'>C
+			<option value='D'>D
+		</select>
+	</td>
+	<td>
+		<p class='qnumber'>&nbsp;38.&nbsp;</p>
+	</td>
+	<td width='100%'>
+<div class='default'>Which of the following events marked a significant milestone in the history of
+software design?</div>
+<div class='default'><table cellpadding='0' cellspacing='0' width='95%' border='0'><tr
+valign='baseline'><td width='4%'><div class='choice'>a.</div></td><td width='46%'><span
+class='default'>The invention of the integrated circuit</span></td><td width='4%'><div
+class='choice'>c.</div></td><td width='46%'><span class='default'>The development of the first
+personal computer</span></td></tr><tr valign='baseline'><td><div
+class='choice'>b.</div></td><td><span class='default'>The release of the first high-level programming
+language</span></td><td><div class='choice'>d.</div></td><td><span class='default'>The advent of
+cloud computing</span></td></tr></table></div>
+<div class='spacer'>&nbsp;</div>
+	</td>
+</tr>
+<tr valign='baseline'>
+	<td>
+		<select name='MC:39' align='top' onmousewheel='return(false);'>
+			<option value=' '> 
+			<option value='A'>A
+			<option value='B'>B
+			<option value='C'>C
+			<option value='D'>D
+		</select>
+	</td>
+	<td>
+		<p class='qnumber'>&nbsp;39.&nbsp;</p>
+	</td>
+	<td width='100%'>
+<div class='default'>You&#039;re tasked with designing a software for a small bakery to manage their
+inventory and sales. Which design approach would be most suitable for this scenario?</div>
+<div class='default'><table cellpadding='0' cellspacing='0' width='95%' border='0'><tr
+valign='baseline'><td width='4%'><div class='choice'>a.</div></td><td width='46%'><span
+class='default'>Object-Oriented Design</span></td><td width='4%'><div class='choice'>c.</div></td><td
+width='46%'><span class='default'>Procedural Design</span></td></tr><tr valign='baseline'><td><div
+class='choice'>b.</div></td><td><span class='default'>Functional Design</span></td><td><div
+class='choice'>d.</div></td><td><span class='default'>Structured
+Design</span></td></tr></table></div>
+<div class='spacer'>&nbsp;</div>
+	</td>
+</tr>
+<tr valign='baseline'>
+	<td>
+		<select name='MC:40' align='top' onmousewheel='return(false);'>
+			<option value=' '> 
+			<option value='A'>A
+			<option value='B'>B
+			<option value='C'>C
+			<option value='D'>D
+		</select>
+	</td>
+	<td>
+		<p class='qnumber'>&nbsp;40.&nbsp;</p>
+	</td>
+	<td width='100%'>
+<div class='default'>You&#039;re designing software for a video streaming service. To optimize
+bandwidth usage and improve user experience, which design technique would you utilize?</div>
+<div class='default'><table cellpadding='0' cellspacing='0' width='95%' border='0'><tr
+valign='baseline'><td width='4%'><div class='choice'>a.</div></td><td width='46%'><span
+class='default'>Data Compression</span></td><td width='4%'><div class='choice'>c.</div></td><td
+width='46%'><span class='default'>Load Balancing</span></td></tr><tr valign='baseline'><td><div
+class='choice'>b.</div></td><td><span class='default'>Caching</span></td><td><div
+class='choice'>d.</div></td><td><span class='default'>Asynchronous
+Processing</span></td></tr></table></div>
+<div class='spacer'>&nbsp;</div>
+	</td>
+</tr>
+<tr valign='baseline'>
+	<td>
+		<select name='MC:41' align='top' onmousewheel='return(false);'>
+			<option value=' '> 
+			<option value='A'>A
+			<option value='B'>B
+			<option value='C'>C
+			<option value='D'>D
+		</select>
+	</td>
+	<td>
+		<p class='qnumber'>&nbsp;41.&nbsp;</p>
+	</td>
+	<td width='100%'>
+<div class='default'>You&#039;re tasked with upgrading a legacy software system. Which aspect of
+software design would help mitigate risks associated with system updates and ensure compatibility
+with existing functionalities?</div>
+<div class='default'><table cellpadding='0' cellspacing='0' width='95%' border='0'><tr
+valign='baseline'><td width='4%'><div class='choice'>a.</div></td><td width='46%'><span
+class='default'>Maintainability</span></td><td width='4%'><div class='choice'>c.</div></td><td
+width='46%'><span class='default'>Portability</span></td></tr><tr valign='baseline'><td><div
+class='choice'>b.</div></td><td><span class='default'>Extensibility</span></td><td><div
+class='choice'>d.</div></td><td><span class='default'>Reusability</span></td></tr></table></div>
+<div class='spacer'>&nbsp;</div>
+	</td>
+</tr>
+<tr valign='baseline'>
+	<td>
+		<select name='MC:42' align='top' onmousewheel='return(false);'>
+			<option value=' '> 
+			<option value='A'>A
+			<option value='B'>B
+			<option value='C'>C
+			<option value='D'>D
+		</select>
+	</td>
+	<td>
+		<p class='qnumber'>&nbsp;42.&nbsp;</p>
+	</td>
+	<td width='100%'>
+<div class='default'>You&#039;re designing software for a gaming platform that needs to support
+multiple devices and operating systems. Which design principle would be essential to ensure seamless
+cross-platform compatibility?</div>
+<div class='default'><table cellpadding='0' cellspacing='0' width='95%' border='0'><tr
+valign='baseline'><td width='4%'><div class='choice'>a.</div></td><td width='46%'><span
+class='default'>Portability</span></td><td width='4%'><div class='choice'>c.</div></td><td
+width='46%'><span class='default'>Interoperability</span></td></tr><tr valign='baseline'><td><div
+class='choice'>b.</div></td><td><span class='default'>Extensibility</span></td><td><div
+class='choice'>d.</div></td><td><span class='default'>Modularity</span></td></tr></table></div>
+<div class='spacer'>&nbsp;</div>
+	</td>
+</tr>
+<tr valign='baseline'>
+	<td>
+		<select name='MC:43' align='top' onmousewheel='return(false);'>
+			<option value=' '> 
+			<option value='A'>A
+			<option value='B'>B
+			<option value='C'>C
+			<option value='D'>D
+		</select>
+	</td>
+	<td>
+		<p class='qnumber'>&nbsp;43.&nbsp;</p>
+	</td>
+	<td width='100%'>
+<div class='default'>You&#039;re designing a program to simulate a car race, where each car has
+different acceleration rates. Which programming construct would you use to repeat the acceleration
+process until a certain condition (e.g., distance covered) is met?</div>
+<div class='default'><table cellpadding='0' cellspacing='0' width='95%' border='0'><tr
+valign='baseline'><td width='4%'><div class='choice'>a.</div></td><td width='46%'><span
+class='default'>Variables</span></td><td width='4%'><div class='choice'>c.</div></td><td
+width='46%'><span class='default'>Conditional statements</span></td></tr><tr
+valign='baseline'><td><div class='choice'>b.</div></td><td><span
+class='default'>Functions/Methods</span></td><td><div class='choice'>d.</div></td><td><span
+class='default'>Loops</span></td></tr></table></div>
+<div class='spacer'>&nbsp;</div>
+	</td>
+</tr>
+<tr valign='baseline'>
+	<td>
+		<select name='MC:44' align='top' onmousewheel='return(false);'>
+			<option value=' '> 
+			<option value='A'>A
+			<option value='B'>B
+			<option value='C'>C
+			<option value='D'>D
+		</select>
+	</td>
+	<td>
+		<p class='qnumber'>&nbsp;44.&nbsp;</p>
+	</td>
+	<td width='100%'>
+<div class='default'>You&#039;re developing a program to manage a student database, where each
+student has attributes such as name, age, and grade. Which programming construct would you use to
+organize and store this data efficiently?</div>
+<div class='default'><table cellpadding='0' cellspacing='0' width='95%' border='0'><tr
+valign='baseline'><td width='4%'><div class='choice'>a.</div></td><td width='46%'><span
+class='default'>Functions/Methods</span></td><td width='4%'><div class='choice'>c.</div></td><td
+width='46%'><span class='default'>Data structures</span></td></tr><tr valign='baseline'><td><div
+class='choice'>b.</div></td><td><span class='default'>Variables</span></td><td><div
+class='choice'>d.</div></td><td><span class='default'>Recursion</span></td></tr></table></div>
+<div class='spacer'>&nbsp;</div>
+	</td>
+</tr>
+<tr valign='baseline'>
+	<td>
+		<select name='MC:45' align='top' onmousewheel='return(false);'>
+			<option value=' '> 
+			<option value='A'>A
+			<option value='B'>B
+			<option value='C'>C
+			<option value='D'>D
+		</select>
+	</td>
+	<td>
+		<p class='qnumber'>&nbsp;45.&nbsp;</p>
+	</td>
+	<td width='100%'>
+<div class='default'>You&#039;re developing a Python program to model a banking system where
+customers can deposit and withdraw funds. Which programming paradigm would be most suitable to
+represent bank accounts as objects with encapsulated data and methods?</div>
+<div class='default'><table cellpadding='0' cellspacing='0' width='95%' border='0'><tr
+valign='baseline'><td width='4%'><div class='choice'>a.</div></td><td width='46%'><span
+class='default'>Imperative programming</span></td><td width='4%'><div class='choice'>c.</div></td><td
+width='46%'><span class='default'>Functional programming</span></td></tr><tr
+valign='baseline'><td><div class='choice'>b.</div></td><td><span class='default'>Object-Oriented
+Programming (OOP)</span></td><td><div class='choice'>d.</div></td><td><span
+class='default'>Declarative programming</span></td></tr></table></div>
+<div class='spacer'>&nbsp;</div>
+	</td>
+</tr>
+<tr valign='baseline'>
+	<td>
+		<select name='MC:46' align='top' onmousewheel='return(false);'>
+			<option value=' '> 
+			<option value='A'>A
+			<option value='B'>B
+			<option value='C'>C
+			<option value='D'>D
+		</select>
+	</td>
+	<td>
+		<p class='qnumber'>&nbsp;46.&nbsp;</p>
+	</td>
+	<td width='100%'>
+<div class='default'>You&#039;re designing a Python application to process and analyze large datasets
+by applying mathematical transformations and operations without modifying the original data. Which
+programming paradigm would best facilitate this approach?</div>
+<div class='default'><table cellpadding='0' cellspacing='0' width='95%' border='0'><tr
+valign='baseline'><td width='4%'><div class='choice'>a.</div></td><td width='46%'><span
+class='default'>Imperative programming</span></td><td width='4%'><div class='choice'>c.</div></td><td
+width='46%'><span class='default'>Functional programming</span></td></tr><tr
+valign='baseline'><td><div class='choice'>b.</div></td><td><span class='default'>Object-Oriented
+Programming (OOP)</span></td><td><div class='choice'>d.</div></td><td><span
+class='default'>Event-Driven Programming</span></td></tr></table></div>
+<div class='spacer'>&nbsp;</div>
+	</td>
+</tr>
+<tr valign='baseline'>
+	<td>
+		<select name='MC:47' align='top' onmousewheel='return(false);'>
+			<option value=' '> 
+			<option value='A'>A
+			<option value='B'>B
+			<option value='C'>C
+			<option value='D'>D
+		</select>
+	</td>
+	<td>
+		<p class='qnumber'>&nbsp;47.&nbsp;</p>
+	</td>
+	<td width='100%'>
+<div class='default'>You&#039;re tasked with developing a Python program to simulate a traffic
+management system for a smart city. Which problem-solving strategy would you employ to break down the
+complex system into manageable components such as traffic lights, vehicle detection, and traffic flow
+algorithms?</div>
+<div class='default'><table cellpadding='0' cellspacing='0' width='95%' border='0'><tr
+valign='baseline'><td width='4%'><div class='choice'>a.</div></td><td width='46%'><span
+class='default'>Abstraction</span></td><td width='4%'><div class='choice'>c.</div></td><td
+width='46%'><span class='default'>Pattern recognition</span></td></tr><tr valign='baseline'><td><div
+class='choice'>b.</div></td><td><span class='default'>Decomposition</span></td><td><div
+class='choice'>d.</div></td><td><span class='default'>Experimentation</span></td></tr></table></div>
+<div class='spacer'>&nbsp;</div>
+	</td>
+</tr>
+<tr valign='baseline'>
+	<td>
+		<select name='MC:48' align='top' onmousewheel='return(false);'>
+			<option value=' '> 
+			<option value='A'>A
+			<option value='B'>B
+			<option value='C'>C
+			<option value='D'>D
+		</select>
+	</td>
+	<td>
+		<p class='qnumber'>&nbsp;48.&nbsp;</p>
+	</td>
+	<td width='100%'>
+<div class='default'>You&#039;re collaborating with a team of developers to troubleshoot a bug in a
+Python application. Which problem-solving strategy would you employ to divide the debugging process
+into smaller tasks, assign responsibilities, and coordinate efforts effectively?</div>
+<div class='default'><table cellpadding='0' cellspacing='0' width='95%' border='0'><tr
+valign='baseline'><td width='4%'><div class='choice'>a.</div></td><td width='46%'><span
+class='default'>Abstraction</span></td><td width='4%'><div class='choice'>c.</div></td><td
+width='46%'><span class='default'>Pattern recognition</span></td></tr><tr valign='baseline'><td><div
+class='choice'>b.</div></td><td><span class='default'>Decomposition</span></td><td><div
+class='choice'>d.</div></td><td><span class='default'>Collaboration</span></td></tr></table></div>
+<div class='spacer'>&nbsp;</div>
+	</td>
+</tr>
+<tr valign='baseline'>
+	<td>
+		<select name='MC:49' align='top' onmousewheel='return(false);'>
+			<option value=' '> 
+			<option value='A'>A
+			<option value='B'>B
+			<option value='C'>C
+			<option value='D'>D
+		</select>
+	</td>
+	<td>
+		<p class='qnumber'>&nbsp;49.&nbsp;</p>
+	</td>
+	<td width='100%'>
+<div class='default'>You&#039;re developing a Python program to automate data preprocessing tasks for
+machine learning models. Which problem-solving strategy would you use to experiment with different
+preprocessing techniques, algorithms, and parameters to optimize model performance?</div>
+<div class='default'><table cellpadding='0' cellspacing='0' width='95%' border='0'><tr
+valign='baseline'><td width='4%'><div class='choice'>a.</div></td><td width='46%'><span
+class='default'>Abstraction</span></td><td width='4%'><div class='choice'>c.</div></td><td
+width='46%'><span class='default'>Pattern recognition</span></td></tr><tr valign='baseline'><td><div
+class='choice'>b.</div></td><td><span class='default'>Decomposition</span></td><td><div
+class='choice'>d.</div></td><td><span class='default'>Experimentation</span></td></tr></table></div>
+<div class='spacer'>&nbsp;</div>
+	</td>
+</tr>
+<tr valign='baseline'>
+	<td>
+		<select name='MC:50' align='top' onmousewheel='return(false);'>
+			<option value=' '> 
+			<option value='A'>A
+			<option value='B'>B
+			<option value='C'>C
+			<option value='D'>D
+		</select>
+	</td>
+	<td>
+		<p class='qnumber'>&nbsp;50.&nbsp;</p>
+	</td>
+	<td width='100%'>
+<div class='default'>You&#039;re developing a Python application to optimize the scheduling of tasks
+in a project management system. To evaluate the effectiveness of different scheduling algorithms,
+which problem-solving strategy would you employ?</div>
+<div class='default'><table cellpadding='0' cellspacing='0' width='95%' border='0'><tr
+valign='baseline'><td width='4%'><div class='choice'>a.</div></td><td width='46%'><span
+class='default'>Abstraction</span></td><td width='4%'><div class='choice'>c.</div></td><td
+width='46%'><span class='default'>Pattern recognition</span></td></tr><tr valign='baseline'><td><div
+class='choice'>b.</div></td><td><span class='default'>Decomposition</span></td><td><div
+class='choice'>d.</div></td><td><span class='default'>Experimentation</span></td></tr></table></div>
+<div class='spacer'>&nbsp;</div>
+	</td>
+</tr>
+<tr valign='baseline'>
+	<td>
+		<select name='MC:51' align='top' onmousewheel='return(false);'>
+			<option value=' '> 
+			<option value='A'>A
+			<option value='B'>B
+			<option value='C'>C
+			<option value='D'>D
+		</select>
+	</td>
+	<td>
+		<p class='qnumber'>&nbsp;51.&nbsp;</p>
+	</td>
+	<td width='100%'>
+<div class='default'>You&#039;re collaborating with a team of data scientists to develop a Python
+program for predictive maintenance in manufacturing. Which problem-solving strategy would you use to
+divide the project into smaller tasks and assign responsibilities to team members?</div>
+<div class='default'><table cellpadding='0' cellspacing='0' width='95%' border='0'><tr
+valign='baseline'><td width='4%'><div class='choice'>a.</div></td><td width='46%'><span
+class='default'>Abstraction</span></td><td width='4%'><div class='choice'>c.</div></td><td
+width='46%'><span class='default'>Pattern recognition</span></td></tr><tr valign='baseline'><td><div
+class='choice'>b.</div></td><td><span class='default'>Decomposition</span></td><td><div
+class='choice'>d.</div></td><td><span class='default'>Collaboration</span></td></tr></table></div>
+<div class='spacer'>&nbsp;</div>
+	</td>
+</tr>
+<tr valign='baseline'>
+	<td>
+		<select name='MC:52' align='top' onmousewheel='return(false);'>
+			<option value=' '> 
+			<option value='A'>A
+			<option value='B'>B
+			<option value='C'>C
+			<option value='D'>D
+		</select>
+	</td>
+	<td>
+		<p class='qnumber'>&nbsp;52.&nbsp;</p>
+	</td>
+	<td width='100%'>
+<div class='default'>You&#039;re developing a Python application to automate the recruitment process
+for a company by analyzing resumes and identifying suitable candidates. Which problem-solving
+strategy would you employ to simplify and streamline the resume screening process?</div>
+<div class='default'><table cellpadding='0' cellspacing='0' width='95%' border='0'><tr
+valign='baseline'><td width='4%'><div class='choice'>a.</div></td><td width='46%'><span
+class='default'>Abstraction</span></td><td width='4%'><div class='choice'>c.</div></td><td
+width='46%'><span class='default'>Pattern recognition</span></td></tr><tr valign='baseline'><td><div
+class='choice'>b.</div></td><td><span class='default'>Decomposition</span></td><td><div
+class='choice'>d.</div></td><td><span class='default'>Experimentation</span></td></tr></table></div>
+<div class='spacer'>&nbsp;</div>
+	</td>
+</tr>
+<tr valign='baseline'>
+	<td>
+		<select name='MC:53' align='top' onmousewheel='return(false);'>
+			<option value=' '> 
+			<option value='A'>A
+			<option value='B'>B
+			<option value='C'>C
+			<option value='D'>D
+		</select>
+	</td>
+	<td>
+		<p class='qnumber'>&nbsp;53.&nbsp;</p>
+	</td>
+	<td width='100%'>
+<div class='default'>You&#039;re tasked with designing a database system for a university to store
+student information, course details, and enrollment records. Which aspect of database fundamentals
+involves structuring the database schema to efficiently organize and manage these entities?</div>
+<div class='default'><table cellpadding='0' cellspacing='0' width='95%' border='0'><tr
+valign='baseline'><td width='4%'><div class='choice'>a.</div></td><td width='46%'><span
+class='default'>Introduction to Database Systems</span></td><td width='4%'><div
+class='choice'>c.</div></td><td width='46%'><span class='default'>Database Design and Data
+Modeling</span></td></tr><tr valign='baseline'><td><div class='choice'>b.</div></td><td><span
+class='default'>Types of Database Systems</span></td><td><div class='choice'>d.</div></td><td><span
+class='default'>SQL (Structured Query Language)</span></td></tr></table></div>
+<div class='spacer'>&nbsp;</div>
+	</td>
+</tr>
+<tr valign='baseline'>
+	<td>
+		<select name='MC:54' align='top' onmousewheel='return(false);'>
+			<option value=' '> 
+			<option value='A'>A
+			<option value='B'>B
+			<option value='C'>C
+			<option value='D'>D
+		</select>
+	</td>
+	<td>
+		<p class='qnumber'>&nbsp;54.&nbsp;</p>
+	</td>
+	<td width='100%'>
+<div class='default'>You&#039;re developing a Python application to analyze social media data for
+sentiment analysis. Which database system would be most suitable for storing unstructured data such
+as text and multimedia content?</div>
+<div class='default'><table cellpadding='0' cellspacing='0' width='95%' border='0'><tr
+valign='baseline'><td width='4%'><div class='choice'>a.</div></td><td width='46%'><span
+class='default'>Relational Database Management System (RDBMS)</span></td><td width='4%'><div
+class='choice'>c.</div></td><td width='46%'><span class='default'>Object-Oriented
+Database</span></td></tr><tr valign='baseline'><td><div class='choice'>b.</div></td><td><span
+class='default'>NoSQL Database</span></td><td><div class='choice'>d.</div></td><td><span
+class='default'>Document Database</span></td></tr></table></div>
+<div class='spacer'>&nbsp;</div>
+	</td>
+</tr>
+<tr valign='baseline'>
+	<td>
+		<select name='MC:55' align='top' onmousewheel='return(false);'>
+			<option value=' '> 
+			<option value='A'>A
+			<option value='B'>B
+			<option value='C'>C
+			<option value='D'>D
+		</select>
+	</td>
+	<td>
+		<p class='qnumber'>&nbsp;55.&nbsp;</p>
+	</td>
+	<td width='100%'>
+<div class='default'>You&#039;re developing a Python application to manage customer orders for an
+e-commerce platform. Which normalization technique would you apply to ensure that each order is
+associated with only one customer and avoid repeating customer information in the database?</div>
+<div class='default'><table cellpadding='0' cellspacing='0' width='95%' border='0'><tr
+valign='baseline'><td width='4%'><div class='choice'>a.</div></td><td width='46%'><span
+class='default'>First Normal Form (1NF)</span></td><td width='4%'><div
+class='choice'>c.</div></td><td width='46%'><span class='default'>Third Normal Form
+(3NF)</span></td></tr><tr valign='baseline'><td><div class='choice'>b.</div></td><td><span
+class='default'>Second Normal Form (2NF)</span></td><td><div class='choice'>d.</div></td><td><span
+class='default'>Boyce-Codd Normal Form (BCNF)</span></td></tr></table></div>
+<div class='spacer'>&nbsp;</div>
+	</td>
+</tr>
+<tr valign='baseline'>
+	<td>
+		<select name='MC:56' align='top' onmousewheel='return(false);'>
+			<option value=' '> 
+			<option value='A'>A
+			<option value='B'>B
+			<option value='C'>C
+			<option value='D'>D
+		</select>
+	</td>
+	<td>
+		<p class='qnumber'>&nbsp;56.&nbsp;</p>
+	</td>
+	<td width='100%'>
+<div class='default'>In a software project, you&#039;re required to minimize the impact of changes in
+one part of the code on other parts. Which design principle would you prioritize?</div>
+<div class='default'><table cellpadding='0' cellspacing='0' width='95%' border='0'><tr
+valign='baseline'><td width='4%'><div class='choice'>a.</div></td><td width='46%'><span
+class='default'>Low coupling</span></td><td width='4%'><div class='choice'>c.</div></td><td
+width='46%'><span class='default'>Encapsulation</span></td></tr><tr valign='baseline'><td><div
+class='choice'>b.</div></td><td><span class='default'>High cohesion</span></td><td><div
+class='choice'>d.</div></td><td><span class='default'>Inheritance</span></td></tr></table></div>
+<div class='spacer'>&nbsp;</div>
+	</td>
+</tr>
+<tr valign='baseline'>
+	<td>
+		<select name='MC:57' align='top' onmousewheel='return(false);'>
+			<option value=' '> 
+			<option value='A'>A
+			<option value='B'>B
+			<option value='C'>C
+			<option value='D'>D
+		</select>
+	</td>
+	<td>
+		<p class='qnumber'>&nbsp;57.&nbsp;</p>
+	</td>
+	<td width='100%'>
+<div class='default'>When designing a web application that handles a large volume of user requests,
+which architectural style would be most suitable to ensure scalability and performance?</div>
+<div class='default'><table cellpadding='0' cellspacing='0' width='95%' border='0'><tr
+valign='baseline'><td width='4%'><div class='choice'>a.</div></td><td width='46%'><span
+class='default'>Client-Server</span></td><td width='4%'><div class='choice'>c.</div></td><td
+width='46%'><span class='default'>Microservices</span></td></tr><tr valign='baseline'><td><div
+class='choice'>b.</div></td><td><span class='default'>Peer-to-Peer</span></td><td><div
+class='choice'>d.</div></td><td><span class='default'>Monolithic</span></td></tr></table></div>
+<div class='spacer'>&nbsp;</div>
+	</td>
+</tr>
+<tr valign='baseline'>
+	<td>
+		<select name='MC:58' align='top' onmousewheel='return(false);'>
+			<option value=' '> 
+			<option value='A'>A
+			<option value='B'>B
+			<option value='C'>C
+			<option value='D'>D
+		</select>
+	</td>
+	<td>
+		<p class='qnumber'>&nbsp;58.&nbsp;</p>
+	</td>
+	<td width='100%'>
+<div class='default'>You&#039;re developing software for an online marketplace that must handle
+concurrent user interactions. Which architectural style would be most suitable to ensure
+responsiveness and scalability?</div>
+<div class='default'><table cellpadding='0' cellspacing='0' width='95%' border='0'><tr
+valign='baseline'><td width='4%'><div class='choice'>a.</div></td><td width='46%'><span
+class='default'>Microservices Architecture</span></td><td width='4%'><div
+class='choice'>c.</div></td><td width='46%'><span class='default'>Client-Server
+Architecture</span></td></tr><tr valign='baseline'><td><div class='choice'>b.</div></td><td><span
+class='default'>Service-Oriented Architecture</span></td><td><div
+class='choice'>d.</div></td><td><span class='default'>Event-Driven
+Architecture</span></td></tr></table></div>
+<div class='spacer'>&nbsp;</div>
+	</td>
+</tr>
+<tr valign='baseline'>
+	<td>
+		<select name='MC:59' align='top' onmousewheel='return(false);'>
+			<option value=' '> 
+			<option value='A'>A
+			<option value='B'>B
+			<option value='C'>C
+			<option value='D'>D
+		</select>
+	</td>
+	<td>
+		<p class='qnumber'>&nbsp;59.&nbsp;</p>
+	</td>
+	<td width='100%'>
+<div class='default'>During the architectural design phase, you&#039;re tasked with selecting the
+appropriate architectural style for a web-based e-commerce platform. Which consideration would
+influence your choice?</div>
+<div class='default'><table cellpadding='0' cellspacing='0' width='95%' border='0'><tr
+valign='baseline'><td width='4%'><div class='choice'>a.</div></td><td width='46%'><span
+class='default'>Scalability requirements</span></td><td width='4%'><div
+class='choice'>c.</div></td><td width='46%'><span class='default'>Front-end design
+aesthetics</span></td></tr><tr valign='baseline'><td><div class='choice'>b.</div></td><td><span
+class='default'>Code documentation standards</span></td><td><div
+class='choice'>d.</div></td><td><span class='default'>Hardware
+specifications</span></td></tr></table></div>
+<div class='spacer'>&nbsp;</div>
+	</td>
+</tr>
+<tr valign='baseline'>
+	<td>
+		<select name='MC:60' align='top' onmousewheel='return(false);'>
+			<option value=' '> 
+			<option value='A'>A
+			<option value='B'>B
+			<option value='C'>C
+			<option value='D'>D
+		</select>
+	</td>
+	<td>
+		<p class='qnumber'>&nbsp;60.&nbsp;</p>
+	</td>
+	<td width='100%'>
+<div class='default'>You&#039;re tasked with selecting a suitable database system for a high-traffic
+e-commerce platform that requires scalability and reliability. Which type of database system would
+you recommend to handle large volumes of concurrent transactions and ensure high availability?</div>
+<div class='default'><table cellpadding='0' cellspacing='0' width='95%' border='0'><tr
+valign='baseline'><td width='4%'><div class='choice'>a.</div></td><td width='46%'><span
+class='default'>Relational Database Management System (RDBMS)</span></td><td width='4%'><div
+class='choice'>c.</div></td><td width='46%'><span class='default'>Object-Oriented
+Database</span></td></tr><tr valign='baseline'><td><div class='choice'>b.</div></td><td><span
+class='default'>NoSQL Database</span></td><td><div class='choice'>d.</div></td><td><span
+class='default'>Graph Database</span></td></tr></table></div>
+<div class='spacer'>&nbsp;</div>
+	</td>
+</tr>
+</table>
+<br clear='all'>
+<br>
+<br>
+<table align='left' width='100%' cellpadding='0' cellspacing='0' border='0'>
+<tr>
+    <td bgcolor='#000000'>
+    <div style='font-size:1pt'>&nbsp;</div>
+    </td>
+</tr>
+<tr>
+    <td><input type='image' src='index_files/submit.gif' alt='Grade and Submit'>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href='#' onclick='Restart(); return false'><img
+	    src='index_files/restart.gif' border='0' alt='Start Over'></a>
+    </td>
+</tr>
+</table>
+</form>
+</body>
+</html>
